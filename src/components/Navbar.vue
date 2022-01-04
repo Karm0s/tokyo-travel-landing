@@ -2,7 +2,7 @@
 </script>
 
 <template>
-	<nav class="flex justify-between items-center">
+	<nav class="flex justify-between items-center mx-20">
 		<div class="brand">
 			<h1>Tokyo</h1>
 		</div>
