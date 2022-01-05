@@ -43,7 +43,12 @@ import Navbar from './components/Navbar.vue'
 					</p>
 				</div>
 			</div>
-			<div class="socials">socials</div>
+			<div class="socials">
+				<div>fb</div>
+				<div>tw</div>
+				<div>ytb</div>
+				<div>ig</div>
+			</div>
 		</div>
 	</section>
 </template>
