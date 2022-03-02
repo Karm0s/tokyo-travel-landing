@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import Navbar from './components/Navbar.vue'
+import SlideShow from './components/SlideShow.vue'
 
 </script>
 
 <template>
 	<section class="h-screen flex flex-col justify-between pt-10">
 		<Navbar></Navbar>
-		<div class="w-full flex justify-center items-center">
+		<div class="w-full flex justify-center items-center h-full">
 			<div
 				class="
 					heading-wrapper
@@ -23,7 +24,7 @@ import Navbar from './components/Navbar.vue'
 					</h2>
 				</div>
 			</div>
-			<div class="slideshow-wrapper w-1/2">here slide show</div>
+			<slide-show class="w-1/2 h-full"></slide-show>
 		</div>
 		<div class="hero-bottom flex justify-between items-center mx-auto">
 			<div class="infos flex items-center w-2/3">
